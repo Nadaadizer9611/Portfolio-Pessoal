@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Currículo de Mateus Fanka Domingues</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Biblioteca
+
+    <p id="paragrafo-corte"> </p> = Paragráfo de separação
+    
+    -->
+
+    <header>
+        <h1>Mateus Fanka Domingues</h1>
+        <p>Técnico em Informática | Engenheiro de Software</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#formacao-Academica">Formação Acadêmica</a>
+        <a href="../index.html" id="inicio">início</a>
+        <a href="#projeto">Projetos</a>
+        <a href="#ocupacoes">Ocupações</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="Trabalho Avaliativo">
+            <h2 class="section-title">Trabalho Avaliativo</h2>
+            <div class="about-container">
+                <p>Este site foi desenvolvido como parte da avaliação final da disciplina de HTML, no curso Técnico em Informática do Instituto de Educação Dr. Walter Thofehrn, em 2024. O objetivo era criar um site com tema livre, aplicando na prática os conhecimentos adquiridos ao longo das aulas.</p>
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section id="sobre-mim">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-container">
+                <p> Tenho 18 anos, considero minhas capacidades sociocomunicativas, cognitivas e criativas elevadas. Sou
+                    muito comunicativo e adoro cativar as pessoas; também gosto de ser recíproco e procuro sempre ter
+                    uma boa relação com quem está a minha volta. Sou responsável com meus afazeres, compromissos e
+                    sempre dou o meu melhor nas mais simples tarefas ou problemas que a mim aparece. </p>
+                <img id="myfoto" src="imagens/myfoto.jpg" alt="Esta imagem é uma foto de Mateus" width="250"
+                    height="350">
+            </div>
+        </section>
+
+        <!-- Experiência -->
+        <section id="experiencia">
+            <h2 class="section-title">Experiência</h2>
+            <ul>
+                <li id="titulo-ex"><strong>SMTIC - Secretaria Municipal de Turismo, Indústria e Comércio</strong> -
+                    Estagiário (02/2024 - Atualmente)</li>
+                <p id="paragrafo-ex">Atendimento ao público com foco na orientação para criação, alteração e baixa de
+                    empresas; suporte a microempreendedores na declaração de faturamento e emissão de boletos;
+                    assistência à equipe de coordenação e prestação de suporte técnico dentro da secretaria.</p>
+
+                <p id="paragrafo-corte"> </p>
+
+                <li id="titulo-ex"><strong>E.M.E.F Luís Antônio Abreu De Moraes</strong> - Auxiliar de Crianças com
+                    Necessidades Especiais (07/2023 - 12/2023)</li>
+                <p id="paragrafo-ex">Acompanhamento individualizado de uma criança com necessidades especiais,
+                    oferecendo suporte nas atividades diárias e nas tarefas escolares para garantir uma experiência
+                    inclusiva e adaptada às suas necessidades.</p>
+
+                <p id="paragrafo-corte"> </p>
+
+                <li id="titulo-ex"><strong>E.M.E.I Recanto Feliz</strong> - Auxiliar de Professor (02/2023 - 07/2023)
+                </li>
+                <p id="paragrafo-ex">Apoio pedagógico no cuidado e acompanhamento das crianças, monitoramento de
+                    comportamento e suporte em atividades criativas e pedagógicas.</p>
+            </ul>
+
+        </section>
+
+        <!-- Formação -->
+        <section id="formacao-Academica">
+            <h2 class="section-title">Formação Acadêmica</h2>
+            <ul>
+                <li><strong>UNINTER - Centro Universitário Internacional</strong> - Bacharel em Engenharia de Software
+                    (2024 - Atualmente)</li>
+
+                <p id="paragrafo-corte"> </p>
+
+                <li><strong>Instituto Estadual de Educação Dr Walter Thofehrn</strong> - Curso técnico em Informática
+                    (2024 - Atualmente)</li>
+            </ul>
+        </section>
+
+        <!-- Habilidades -->
+        <!-- Adaptar no futuro
+            <section id="habilidades">
+                <h2 class="section-title">Habilidades</h2>
+                <ul>
+                    <li><strong>Web</strong>: HTML, CSS</li>
+                </ul>
+            </section>
+        -->
+
+        <section id="projeto">
+            <h2 class="section-title">Projetos</h2>
+            <ul>
+                <li>
+                    <button class="botao-projeto" onclick="abraCarrossel('carouselPessoais')">Projetos Pessoais</button>
+                    <button class="botao-projeto" onclick="abraCarrossel('carouselAcademicos')">Projetos
+                        Acadêmicos</button>
+                    <button class="botao-projeto" onclick="abraCarrossel('carouselEmpresariais')">Projetos
+                        Empresariais</button>
+                    <div class="carousel" id="carouselPessoais">
+                        <!-- Conteúdo do carrossel para Projetos Pessoais -->
+                        <p>Carrossel de Projetos Pessoais</p>
+                        <a id="Linkpro" href="#projeto01.html">Projeto 01</a>
+                        <a id="Linkpro" href="#projeto02.html">Projeto 02</a>
+                        <a id="Linkpro" href="#projeto03.html">Projeto 03</a>
+                    </div>
+
+                    <div class="carousel" id="carouselAcademicos">
+                        <!-- Conteúdo do carrossel para Projetos Acadêmicos -->
+                        <p>Carrossel de Projetos Acadêmicos</p>
+                    </div>
+
+                    <div class="carousel" id="carouselEmpresariais">
+                        <!-- Conteúdo do carrossel para Projetos Empresariais -->
+                        <p>Carrossel de Projetos Empresariais</p>
+                    </div>
+            </ul>
+        </section>
+
+        <script src="script.js"></script>
+
+        <section id="ocupacoes">
+            <h2 class="section-title">Ocupações</h2>
+            <ul>
+                <p> Jogo vôlei todas as terças e quintas feiras, saio com meus amigos, jogo RPG de mesa e jogo jogos
+                    competitivos como League Of Legends ou jogos de Puzzles como Sudoku e Caças-Palavras. </p>
+            </ul>
+        </section>
+
+
+        <!-- Contato -->
+        <section id="contato">
+            <h2 class="section-title">Contato</h2>
+
+            <p>
+                WhatsApp: <a href="https://api.whatsapp.com/send/?phone=5553984040221">+55 53 98404-0221</a>
+            </p>
+            <p>Email: <a
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMGRLhskgVkVDNkVRXKMxqfqnwPBzXpRdRGzRVzhFhdWKPHxMHPhmwvXblrSsNtDffzKMP">trabalhomateusfanka13@gmail.com</a>
+            </p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mateus-fanka-in" target="_blank">Mateus Fanka</a></p>
+            <p>GitHub: <a href="https://github.com/Nadaadizer9611" target="_blank">Nadaadizer9611</a></p>
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>
